@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# My first mini-project that using React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My script is in src/App.js
+My style sheet is in src/App.css
 
-## Available Scripts
+## Coding
 
-In the project directory, you can run:
+In this Tic Tac Toe project, I created:
 
-### `npm start`
+### Assign table for Tic Tac Toe
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- create function component that has 9 empty member of array as a state
+- use flex to build up 3x3 table
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Function to draw "X and "O"
 
-### `npm test`
+- use onClick to put "X and "O" in state of table
+- use if/else to change turn
+- prevent the cell from re-draw/draw after tie/draw after win by if/else
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Function to find the winner
 
-### `npm run build`
+- assign winning conditions
+- use for loop to check the condition
+- return the winner
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tie function
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- use .filter to check table's array and the game doesn't have a winner
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Restart botton
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- use onClick to set state of table to empty
