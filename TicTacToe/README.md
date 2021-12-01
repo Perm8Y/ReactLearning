@@ -1,6 +1,6 @@
 # My first mini-project that using React
 
-My script is in src/App.js
+My script is in src/App.js <br />
 My style sheet is in src/App.css
 
 ## Coding
