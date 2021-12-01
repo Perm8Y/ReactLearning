@@ -30,6 +30,6 @@ In this Tic Tac Toe project, I created:
 
 - use .filter to check table's array and the game doesn't have a winner
 
-### Restart botton
+### Restart button
 
 - use onClick to set state of table to empty
