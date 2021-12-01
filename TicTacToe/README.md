@@ -1,5 +1,7 @@
 # My first mini-project that using React
 
+![alt text](https://github.com/Perm8Y/ReactProject/blob/main/TicTacToe/Screen.jpg)
+
 My script is in src/App.js <br />
 My style sheet is in src/App.css
 
