@@ -30,4 +30,11 @@ I devided screen into 3 boxes:
 - use id of each transaction to identify a transaction that need to delete
 - use filter to re-create array that not contain a transaction that need to delete
   
-  
+### Function to sum total income-expense
+- use loop (let i=0; i < transactions.length; i++) for sum amount of each transaction
+
+### Function to render transaction
+- use .map to identify transactions in array and return them to render
+                                             
+### Function to sortseparate income transaction and expense transaction
+- use if/else to separate income/expense and render them on different color
