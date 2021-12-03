@@ -2,10 +2,9 @@
 
 My script is in src/App2.js <br />
 My style sheet is in src/App2.css <br />
-Note: App.js and App.css are old-verion
+Note: App.js and App.css are old-verion <br/>
 
-
-[income-expense-app](reactlearning02-de0ce.firebaseapp.com)
+App: reactlearning02-de0ce.firebaseapp.com
 
 ## Coding
 
