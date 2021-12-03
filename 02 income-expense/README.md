@@ -13,7 +13,7 @@ In this project, I created:
 I devided screen into 3 boxes:
 - header box
 - menu box
-- display box
+- display box (overflow added)
 
 ### Switch pages
 
@@ -36,5 +36,5 @@ I devided screen into 3 boxes:
 ### Function to render transaction
 - use .map to identify transactions in array and return them to render
                                              
-### Function to sortseparate income transaction and expense transaction
+### Function to separate income transaction and expense transaction
 - use if/else to separate income/expense and render them on different color
