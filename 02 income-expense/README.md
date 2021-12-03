@@ -4,8 +4,8 @@ My script is in src/App2.js <br />
 My style sheet is in src/App2.css <br />
 Note: App.js and App.css are old-verion
 
-##Website
-[App](reactlearning02-de0ce.firebaseapp.com)
+
+[income-expense-app](reactlearning02-de0ce.firebaseapp.com)
 
 ## Coding
 
