@@ -1,4 +1,4 @@
-# My first mini-project that using React
+# My first project for learning React
 
 (![alt text](https://github.com/Perm8Y/ReactProject/blob/main/TicTacToe/Screen.jpg)
 
