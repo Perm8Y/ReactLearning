@@ -1,4 +1,4 @@
-# My first project for learning React
+# My 1st project for learning React: Tic Tac Toe game
 
 (![alt text](https://github.com/Perm8Y/ReactProject/blob/main/TicTacToe/Screen.jpg)
 
