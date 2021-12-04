@@ -4,8 +4,6 @@ My script is in src/App2.js <br />
 My style sheet is in src/App2.css <br />
 Note: App.js and App.css are old-verion <br/>
 
-App: reactlearning02-de0ce.firebaseapp.com
-
 ## Coding
 
 In this project, I created:
