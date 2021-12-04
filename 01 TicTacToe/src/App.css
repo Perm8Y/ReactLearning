@@ -1,0 +1,72 @@
+.whiteText {
+  text-align: center;
+  color: antiquewhite;
+}
+
+.winner {
+  text-align: center;
+  background-color: antiquewhite;
+  color: rgba(45, 45, 45);
+}
+
+.table {
+  background-color: rgba(45, 45, 45);
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  
+  
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.cell {
+  border: 3px solid blanchedalmond;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  color: blanchedalmond;
+
+  cursor: pointer;
+  }
+
+.cell:hover {
+ border: 5px solid blanchedalmond;
+}
+
+.reButton {
+  width: 20%;
+  height: 32px;
+  margin-top: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-radius: 8px;
+
+  background-color: blanchedalmond;
+  color: rgba(45, 45, 45);
+  font-size: medium;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  cursor: pointer;
+}
+
+.reButton:hover {
+  background-color: rgb(212, 186, 147);
+}
+
+.reButton:active {
+  box-shadow: 0 2px rosybrown;
+  transform: translateY(1px);
+}
